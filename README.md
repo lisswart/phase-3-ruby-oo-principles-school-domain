@@ -117,7 +117,7 @@ key already exists, we will erase its current contents by creating a key of `9`
 and setting it equal to an empty array! You'll need to understand this in order
 to get the tests passing.
 
-**Hint:** One way to solve this problem is by using [Ruby's `|=` (or equals)
+**Hint:** One way to solve this problem is by using [Ruby's `||=` (or equals)
 operator][or-equals]
 
 Here's an example of the desired behavior:
